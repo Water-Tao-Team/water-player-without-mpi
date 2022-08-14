@@ -1,0 +1,1 @@
+g++ main.cc controller/src/hello_controller.cc view/src/hello_view.cc 

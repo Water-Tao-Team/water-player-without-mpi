@@ -1,7 +1,7 @@
 #ifndef HELLO_CONTROLLER_H
 #define HELLO_CONTROLLER_H
 
-#include "../../mvc/include/controller.h"
+#include <mvc/controller.h>
 
 class HelloController : public Controller {
   typedef Controller super_class; 

@@ -1,6 +1,6 @@
 #ifndef CONTROLLER_H
 #define CONTROLLER_H
-#include "../../log/log.h"
+#include <log/log.h>
 
 #include <boost/any.hpp>
 

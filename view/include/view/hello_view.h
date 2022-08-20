@@ -1,6 +1,6 @@
 #ifndef HELLO_VIEW_H
 #define HELLO_VIEW_H
-#include "../../mvc/include/view.h"
+#include <mvc/view.h>
 
 class HelloView : public View {
   typedef View super_class; 

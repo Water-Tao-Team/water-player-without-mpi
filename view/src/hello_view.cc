@@ -1,5 +1,5 @@
-#include "../include/hello_view.h"
-#include "../../controller/include/hello_controller.h"
+#include <view/hello_view.h>
+#include <controller/hello_controller.h>
 
 #define CTR HelloController
 

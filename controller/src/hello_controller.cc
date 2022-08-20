@@ -1,6 +1,6 @@
-#include "../include/hello_controller.h"
-#include "../../view/include/hello_view.h"
-#include "../../log/log.h"
+#include <controller/hello_controller.h>
+#include <view/hello_view.h>
+#include <log/log.h>
 
 #define VIEW ((HelloView *) this->view_)
 

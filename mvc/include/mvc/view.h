@@ -1,7 +1,7 @@
 #ifndef VIEW_H
 #define VIEW_H
-#include "../include/controller.h"
-#include "../../log/log.h"
+#include <mvc/controller.h>
+#include <log/log.h>
 
 #include <boost/any.hpp>
 

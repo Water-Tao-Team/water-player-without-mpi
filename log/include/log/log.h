@@ -4,5 +4,6 @@
 
 #define log_info std::cout
 #define log_debug std::cout
+#define log_error std::cout
 
 #endif // LOG_H

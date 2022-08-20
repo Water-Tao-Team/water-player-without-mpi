@@ -16,6 +16,7 @@ include_directories(${Boost_INCLUDE_DIR})
 set(SOURCES
   ${PROJECT_SOURCE_DIR}/controller/src/hello_controller.cc
   ${PROJECT_SOURCE_DIR}/view/src/hello_view.cc
+  ${PROJECT_SOURCE_DIR}/model/src/hello_model.cc
   ${PROJECT_SOURCE_DIR}/main.cc
 )
 
@@ -26,10 +27,15 @@ add_executable(mvc_framework ${SOURCES})
 # when running g++ these will be included as -I/directory/path/
 target_include_directories(mvc_framework
   PRIVATE 
-    ${PROJECT_SOURCE_DIR}/controller/include
+    # log
     ${PROJECT_SOURCE_DIR}/log/include
-    ${PROJECT_SOURCE_DIR}/view/include
+
+    # mvc
     ${PROJECT_SOURCE_DIR}/mvc/include
+    ${PROJECT_SOURCE_DIR}/view/include
+    ${PROJECT_SOURCE_DIR}/model/include
+    ${PROJECT_SOURCE_DIR}/controller/include
+
 )
 
 # link libraries
